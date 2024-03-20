@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:recipies_app/models/recipe.dart';
-import 'package:recipies_app/widgets/recipe_details.dart';
-import 'package:recipies_app/widgets/recipe_image.dart';
-import 'package:recipies_app/widgets/recipe_ingredients.dart';
-import 'package:recipies_app/widgets/recipe_instructions.dart';
+import 'package:recipies_app/widgets/recipe/recipe_details.dart';
+import 'package:recipies_app/widgets/recipe/recipe_image.dart';
+import 'package:recipies_app/widgets/recipe/recipe_ingredients.dart';
+import 'package:recipies_app/widgets/recipe/recipe_instructions.dart';
 
 class RecipePage extends StatelessWidget {
   final Recipe recipe;
